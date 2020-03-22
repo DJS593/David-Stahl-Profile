@@ -91,9 +91,14 @@ header nav ul {
 
 }
 .flex-intro {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-left: 1px solid blue;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 .
 .flex-intro h3 {
@@ -112,13 +117,61 @@ header nav ul {
 /* Section "Work" Style Begin */
 
 
+.projects {
+    background-color: white;
+    height: 300px;
+}
+
+.projects h3 {
+    color: rgba(50, 158, 168, 1.0);
+    font-size: xx-large;
+}
+
+
+.projects-container {
+    color: black;
+    max-width: 80%;
+    margin: 0 0 0 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 10px;
+    border-left: blue;
+}
+
+.box1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+
+
 /* Section "Work" Style End */
 
-}
+
 /* Footer "Contact Me" Style Begin */
+
+footer {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h3 {
+    color: rgba(50, 158, 168, 1.0);
+    font: xx-large;
+}
+
+.contact ul li {
+    color: rgba(50, 158, 168, 1.0);
+    font: 16px;
+}
+
 
 /* Footer "Contact Me" Style End */
 
-}
+
 
 /* Utility Classes Begin */
