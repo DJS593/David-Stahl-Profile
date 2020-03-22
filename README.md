@@ -1,9 +1,9 @@
 # David-Stahl-Profile
 
-## Introducing my professional work to prospective employers
+## Professional Profile
 ## Goal of this profile
-- introduce myself
-- provide example of completed projects
-- provide contact information and other relevant profession information
+- introduce myself to prospective employers
+- provide examples of completed projects
+- provide contact information and other relevant professional information
 
 https://djs593.github.io/David-Stahl-Profile/
