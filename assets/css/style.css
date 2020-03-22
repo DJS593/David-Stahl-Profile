@@ -67,16 +67,58 @@ header nav ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: flex-end;
     background-attachment: fixed;
     height: 400px;
 }
- 
-.hero-subtitle {
+
+.hero-subtitle h2 {
     color: black;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     background-color: rgba(50, 158, 168, 1.0);
+    margin-left: 700px;
+    margin-bottom: 30px;
+    font-size: 36px;
     
 }
+
+/* Hero Style End */
+
+/* Section "About Me" Style Begin */
+
+.intro {
+    height: 300px;
+    background-color: white;
+
+}
+.flex-intro {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.
+.flex-intro h3 {
+    color: rgba(50, 158, 168, 1.0);
+    font: 20px;
+}
+
+.flex-intro p {
+    color: black;
+
+}
+
+
+/* Section "About Me" Style End */
+
+/* Section "Work" Style Begin */
+
+
+/* Section "Work" Style End */
+
+}
+/* Footer "Contact Me" Style Begin */
+
+/* Footer "Contact Me" Style End */
+
+}
+
+/* Utility Classes Begin */
