@@ -78,6 +78,15 @@ header nav ul {
     
 }
 
+.hero-img {
+    padding: 25x 25x;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-height: 200px;
+}
+
 /* Hero Style End */
 
 /* Section "About Me" Style Begin */
@@ -152,21 +161,36 @@ header nav ul {
     
 }
 .box2 {
+    background-image: url("../images/snowy-mountain.jpg");
+    background-position: center;
+    background-size: 25%;
+    background-attachment: fixed;
 
 }
 
 .box3 {
-    background-image: url("../images/surf-report.jpg");
+    background-image: url("../images/calculator.jpg");
     background-position: center;
+    background-size: 25%;
+    background-attachment: fixed;
 
 }
 
 .box4 {
+    background-image: url("../images/outer-space.jpg");
+    background-position: center;
+    background-size: 25%;
+    background-attachment: fixed;
 
 }
 
 .box5 {
-    
+    background-image: url("../images/desert-mountains.jpg");
+    background-position: center;
+    background-size: 25%;
+    background-attachment: fixed;
+
+
 }
 /* Section "Work" Style End */
 
