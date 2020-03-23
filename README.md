@@ -8,4 +8,5 @@
 
 https://djs593.github.io/David-Stahl-Profile/
 
-![image](https://user-images.githubusercontent.com/61851131/77267819-11886380-6c61-11ea-9ee2-a1dd7526032e.png)
+![image](https://user-images.githubusercontent.com/61851131/77276619-5ff52c80-6c78-11ea-9f4a-393b118e87f6.png)
+

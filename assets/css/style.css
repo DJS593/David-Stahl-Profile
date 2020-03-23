@@ -78,15 +78,6 @@ header nav ul {
     
 }
 
-.hero-img {
-    padding: 25x 25x;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    max-height: 200px;
-}
-
 /* Hero Style End */
 
 /* Section "About Me" Style Begin */
@@ -97,9 +88,15 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
-
+    align-items: center
 }
+
+.intro img {
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
 .flex-intro {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -137,8 +134,12 @@ header nav ul {
     color: rgba(50, 158, 168, 1.0);
     font-weight: bold;
     font: 48px;
+
 }
 
+.projects h4, .projects h5 {
+    color: red;
+}
 
 .projects-container {
     color: black;
@@ -199,6 +200,7 @@ header nav ul {
 
 footer {
     padding: 20px 80px 20px 0;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -208,6 +210,7 @@ footer h3 {
     color: rgba(50, 158, 168, 1.0);
     font: 48px;
     font-style: bold;
+    
 }
 
 .contact ul li {
@@ -216,6 +219,7 @@ footer h3 {
     font-weight: bold;
     display: inline;
     list-style: none;
+    padding-right: 100px;
 }
 
 
@@ -245,37 +249,20 @@ footer h3 {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
+        font-size: 20px
     }
 
-    header nav ul li a {
-        font-size: 20px;
-    }
-
-    footer h2, footer div {
+    footer h3, footer div {
         text-align: center;
         width: 100%;
     }
 
-    .hero-cta, .hero-form {
+    .hero, .hero-subtitle h2 {
         width: 100%;
-    }
-
-    .hero-cta {
         text-align: center;
     }
 
-    .section-title {
-        width: 80%;
-    }
-
-    .trainer {
-        flex: 0 70%;
-    }
-
-    .contact-info iframe {
-        flex: 1 100%;
-    }
-  }
+    
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
@@ -283,19 +270,8 @@ footer h3 {
     section {
         padding: 30px 15px;
     }
-
-    .step h3 {
-        flex: 1 100%;
-        text-align: center;
-      }
     
-      .step-info {
-        flex: 2 100%;
-        text-align: center;
-        justify-content: center;
-      }
-    
-      .step-img {
+      .david-img {
         flex: 0 32%;
         margin-right: 0;
         margin-top: 15px;
@@ -306,55 +282,12 @@ footer h3 {
         flex: 100%;  
       }
    
-      .service-grid-container {
+      .projects-container {
         grid-template-columns: 1fr 1fr;
       }
     
-      .service-grid-item.basic {
-        grid-column: 1;
-      }
-    
-      .service-grid-item.both {
-        grid-column: 1 / -1;
-      }
-    
-      .service-grid-item.cancel {
-        transform: none;
-        writing-mode: unset;
-        grid-column: 1 / -1;
-        grid-row: -1;
-      }
-    
-  }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
     
-    .hero-form button {
-        width: 100%;
-      }
-    
-      .section-title {
-        width: 95%;
-      }
-    
-      .intro p {
-        width: 100%;
-      }
-    
-      .trainer {
-        flex: 0 100%;
-      }
-    
-      .contact-info {
-        text-align: center;
-      }
-    
-      .contact-info > * {
-        flex: 0 100%;
-      }
-
-      .contact-form {
-          order: 3;
-      }
-  }
+   
