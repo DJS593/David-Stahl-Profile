@@ -196,9 +196,9 @@ header nav ul {
 /* Section "Work" Style End */
 
 
-/* Footer "Contact Me" Style Begin */
+/* Section "Contact Me" Style Begin */
 
-footer {
+.contact {
     padding: 20px 80px 20px 0;
     margin-top: 50px;
     display: flex;
@@ -206,7 +206,7 @@ footer {
     flex-wrap: wrap;
 }
 
-footer h3 {
+.contact h3 {
     color: rgba(50, 158, 168, 1.0);
     font: 48px;
     font-style: bold;
@@ -223,9 +223,17 @@ footer h3 {
 }
 
 
-/* Footer "Contact Me" Style End */
+/* Section "Contact Me" Style End */
 
+/* Section "Resume" Style Begin */
 
+.resume h3 {
+    color: rgba(50, 158, 168, 1.0);
+    font: 48px;
+    font-style: bold;
+}
+
+/* Section "Resume" Style End */
 
 /* Utility Classes Begin */
 /* This part of the style sheet for classes used by mulitple elements throughout the HTML */
